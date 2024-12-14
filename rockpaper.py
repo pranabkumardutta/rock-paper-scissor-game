@@ -109,9 +109,9 @@ def choice_update(a):
 
 
 #button
-button_rock = Button(window,width=16 , height=3 , text="ROCK", font=("arial",20,"bold"),bg='yellow',fg="red", command=lambda:choice_update("rock"),).grid(row=4 , column=1)
-button_paper = Button(window,width=16 , height=3 , text="PAPER", font=("arial",20,"bold"),bg='yellow',fg="red",command=lambda:choice_update("paper"),).grid(row=4 , column=2)
-button_scissor = Button(window,width=16 , height=3 , text="SCISSOR", font=("arial",20,"bold"),bg='yellow',fg="red",command=lambda:choice_update("scissor"),).grid(row=4 , column=3)
+button_rock = Button(window,width=16 , height=3 , text="ROCK", font=("arial",20,"bold"),bg='yellow',fg="red", command=lambda:choice_update("rock"),).grid(row=5 , column=1)
+button_paper = Button(window,width=16 , height=3 , text="PAPER", font=("arial",20,"bold"),bg='yellow',fg="red",command=lambda:choice_update("paper"),).grid(row=5 , column=2)
+button_scissor = Button(window,width=16 , height=3 , text="SCISSOR", font=("arial",20,"bold"),bg='yellow',fg="red",command=lambda:choice_update("scissor"),).grid(row=5 , column=3)
 
 
 
